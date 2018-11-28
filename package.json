@@ -1,0 +1,24 @@
+{
+  "name": "msd_messaging",
+  "version": "1.0.0",
+  "description": "Instant Messaging Users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.6.1",
+    "pg-hstore": "^2.3.2",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sequelize": "^4.41.2",
+    "sequelize-cli": "^5.3.0"
+  }
+}

@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ .mdl-layout__container {
+      position: relative !important;  
+    /* width: 100%; */
+    /* height: 100%; */
+    }
+    body {
+      background: #F2F2F2;
+    }
+    .direct-message-history-wrapper {
+       display: table-cell;
+      vertical-align: bottom;
+      height: 600px;
+      background: #FFF;
+      border: 1px solid #F2F2F2;
+      width:  800px;
+      padding:    20px;
+
+    }
+    .direct-message-history {
+      max-height: 500px;
+      overflow: auto;
+
+    }
+    .sent-message-ul {
+      list-style: none;
+      height: 100px;
+    }
+
+     .received-message-ul {
+       list-style: none;
+       height: 100px;
+    }
+
+    .sent-message-ul li{
+      list-style: none;
+      display: inline-block;
+      float:      right;
+    }
+    .received-message-ul li{
+      list-style: none;
+      display: inline-block;
+      float:      left;
+    } 
+
+
+    .received-message-ul .sent-message {
+      background:   #A252 ;
+      color:        #222;
+      border:       1px solid #555;
+      padding:      15px;
+      border-radius: 95%;
+     }
+    .sent-message-ul .sent-message  {
+      border:         1px solid #555;
+      padding:       15px;
+      border-radius: 95%;
+      background:     #FFF;
+      color:          #888;
+
+    } 
+     .direct-message-history .received-message  {
+      border:         1px solid #555;
+      padding:        15px;
+      border-radius:  80%;
+      background:     #A252;
+      color:          #888;
+    } 
+    .direct-message .message-table {
+      border: 1px solid #F2F2F2;
+      width:  80%;
+      height: 80%;
+      background: #F2F2F2;
+    }
+    .direct-messages h4 {
+      border: 2px solid #423;
+      background: #A252;
+      width: 100%;
+      text-align: center
+    }
+     .direct-messages table {
+      border: 2px solid #F2F2F2;
+      width: 100%;
+    }
+    .direct-messages table tr {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .direct-messages h3 {
+      background: #FFF;
+      color:#423; 
+      margin-left: 50%;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+
+    .send-message-textarea {
+      width: 99%;
+      height: 150px;
+      margin-top: -15px;
+      background: #F2f2f2;
+      font-size:  15px;
+    }
+   
+    .direct-messages table {
+  
+    }
+
+
+    .direct-message-list {
+      display:    block;
+      text-decoration: none;
+      border-bottom:  1px solid #FFF;
+      font-size:  18px;
+      cursor:     pointer;
+
+    }
+    /*.active-nav  {
+      border:     2px solid #FF4081 !important;
+      border-radius: 100%;
+
+    }*/
+    .active-nav td { 
+                      border-top:  2px solid #FF4081;
+
+                      border-bottom:  2px solid #FF4081;
+                  }
+    .active-nav td:first-child { 
+                                  border-left: 2px solid #FF4081;
+
+                                  border-top-left-radius: 10px; 
+                                   border-bottom-left-radius: 10px; 
+                                }
+     .active-nav td:last-child { 
+                                  border-right: 2px solid #FF4081;
+
+                                 border-top-right-radius: 10px; 
+                                   border-bottom-right-radius: 10px; 
+                                }
+
+
+   
+    .direct-message-header {
+        border: 2px solid #423;
+        background: #A252;
+        width: 820px;
+        text-align: center;
+        padding:    5px;
+    }
