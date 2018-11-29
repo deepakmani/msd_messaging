@@ -169,7 +169,8 @@ export class DirectMessage extends Component {
       		}
 
       		this.setState({
-	    		direct_messages: [...this.state.direct_messages, direct_message]
+	    		direct_messages: [...this.state.direct_messages, direct_message],
+	    		new_message: 	""
 	    	});
 
       		fetch("/api/sendDirectMessage", {
